@@ -10,7 +10,7 @@ def fizzbuzz1(num):
             print number
 
 def fizzbuzz2(num):
-    for number in range(1,21):
+    for number in range(1,num):
         output = ""
         if number % 3 == 0:
             output += "Fizz"
